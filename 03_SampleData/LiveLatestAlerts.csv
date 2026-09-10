@@ -1,0 +1,139 @@
+﻿RecordType,RouteID,RouteName,RouteStatus,RouteColorCode,FetchedDate,FetchedTime
+Bus,1,Bronzeville/Union Station,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,2,Hyde Park Express,Planned Reroute,ffffff,8/29/2026,21:00:03
+Bus,3,King Drive,Added Service,565a5c,8/29/2026,21:00:03
+Bus,4,Cottage Grove,Planned Reroute,414145,8/29/2026,21:00:03
+Bus,X4,Cottage Grove Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,N5,South Shore Night Bus,Planned Reroute,ffffff,8/29/2026,21:00:03
+Bus,6,Jackson Park Express,Planned Reroute,b71234,8/29/2026,21:00:03
+Bus,7,Harrison,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,8,Halsted,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,8A,South Halsted,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,9,Ashland,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,X9,Ashland Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,10,Obama Presidential Center/Museum of Science & Industry Express,Planned Reroute,b71234,8/29/2026,21:00:03
+Bus,11,Lincoln,Bus Stop Relocation,565a5c,8/29/2026,21:00:03
+Bus,12,Roosevelt,Bus Stop Note,565a5c,8/29/2026,21:00:03
+Bus,J14,Jeffery Jump,Planned Reroute,0065BD,8/29/2026,21:00:03
+Bus,15,Jeffery Local,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,18,16th-18th,Minor Delays / Reroute,565a5c,8/29/2026,21:00:03
+Bus,19,United Center Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,20,Madison,Bus Stop Note,414145,8/29/2026,21:00:03
+Bus,21,Cermak,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,22,Clark,Bus Stop Note,565a5c,8/29/2026,21:00:03
+Bus,24,Wentworth,Bus Stop Note,565a5c,8/29/2026,21:00:03
+Bus,26,South Shore Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,28,Stony Island,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,29,State,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,30,South Chicago,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,31,31st,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,34,South Michigan,Normal Service,414145,8/29/2026,21:00:03
+Bus,35,31st/35th,Added Service,414145,8/29/2026,21:00:03
+Bus,36,Broadway,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,37,Sedgwick,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,39,Pershing,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,43,43rd,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,44,Wallace/Racine,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,47,47th,Normal Service,414145,8/29/2026,21:00:03
+Bus,48,South Damen,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,49,Western,Planned Reroute,414145,8/29/2026,21:00:03
+Bus,49B,North Western,Bus Stop Relocation,565a5c,8/29/2026,21:00:03
+Bus,X49,Western Express,Planned Reroute,ffffff,8/29/2026,21:00:03
+Bus,50,Damen,Bus Stop Note,565a5c,8/29/2026,21:00:03
+Bus,51,51st,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,52,Kedzie,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,52A,South Kedzie,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,53,Pulaski,Normal Service,414145,8/29/2026,21:00:03
+Bus,53A,South Pulaski,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,54,Cicero,Normal Service,414145,8/29/2026,21:00:03
+Bus,54A,North Cicero/Skokie Blvd.,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,54B,South Cicero,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,55,Garfield,Normal Service,414145,8/29/2026,21:00:03
+Bus,55A,55th/Austin,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,55N,55th/Narragansett,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,56,Milwaukee,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,57,Laramie,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,59,59th/61st,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,60,Blue Island/26th,Planned Reroute,414145,8/29/2026,21:00:03
+Bus,62,Archer,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,62H,Archer/Harlem,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,63,63rd,Normal Service,414145,8/29/2026,21:00:03
+Bus,63W,West 63rd,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,65,Grand,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,66,Chicago,Planned Reroute,414145,8/29/2026,21:00:03
+Bus,67,67th-69th-71st,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,68,Northwest Highway,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,70,Division,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,71,71st/South Shore,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,72,North,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,73,Armitage,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,74,Fullerton,Added Service,414145,8/29/2026,21:00:03
+Bus,75,74th-75th,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,76,Diversey,Added Service,565a5c,8/29/2026,21:00:03
+Bus,77,Belmont,Normal Service,414145,8/29/2026,21:00:03
+Bus,78,Montrose,Service Change,565a5c,8/29/2026,21:00:03
+Bus,79,79th,Normal Service,414145,8/29/2026,21:00:03
+Bus,80,Irving Park,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,81,Lawrence,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,81W,West Lawrence,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,82,Kimball-Homan,Planned Reroute,414145,8/29/2026,21:00:03
+Bus,84,Peterson,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,85,Central,Added Service,414145,8/29/2026,21:00:03
+Bus,85A,North Central,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,86,Narragansett/Ridgeland,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,87,87th,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,88,Higgins,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,90,Harlem,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,91,Austin,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,92,Foster,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,93,California/Dodge,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,94,California,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,95,95th,Normal Service,414145,8/29/2026,21:00:03
+Bus,96,Lunt,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,97,Skokie,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,100,Jeffery Manor Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,103,West 103rd,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,106,East 103rd,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,108,Halsted/95th,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,111,111th/King Drive,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,111A,Pullman Shuttle,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,112,Vincennes/111th,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,115,Pullman/115th,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,119,Michigan/119th,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,120,Ogilvie/Streeterville Express,Bus Stop Note,ffffff,8/29/2026,21:00:03
+Bus,121,Union/Streeterville Express,Bus Stop Note,ffffff,8/29/2026,21:00:03
+Bus,124,Navy Pier,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,125,Water Tower Express,Planned Reroute,ffffff,8/29/2026,21:00:03
+Bus,126,Jackson,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,128,Soldier Field Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,130,Museum Campus,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,134,Stockton/LaSalle Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,135,Clarendon/LaSalle Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,136,Sheridan/LaSalle Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,143,Stockton/Michigan Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,146,Inner Lake Shore/Michigan Express,Planned Reroute,b71234,8/29/2026,21:00:03
+Bus,147,Outer DuSable Lake Shore Express,Normal Service,b71234,8/29/2026,21:00:03
+Bus,148,Clarendon/Michigan Express,Planned Reroute,ffffff,8/29/2026,21:00:03
+Bus,151,Sheridan,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,152,Addison,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,155,Devon,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,156,LaSalle,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,157,Streeterville/Taylor,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,165,West 65th,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,169,69th/UPS Express,Normal Service,ffffff,8/29/2026,21:00:03
+Bus,171,U. of Chicago/Hyde Park,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,172,U. of Chicago/Kenwood,Planned Reroute,565a5c,8/29/2026,21:00:03
+Bus,192,U. of Chicago Hospitals Express,Planned Reroute,ffffff,8/29/2026,21:00:03
+Bus,201,Central/Ridge,Normal Service,565a5c,8/29/2026,21:00:03
+Bus,206,Evanston Circulator,Normal Service,ffffff,8/29/2026,21:00:03
+Rail,Red,Red Line,Normal Service,c60c30,8/29/2026,21:00:04
+Rail,Blue,Blue Line,Planned Work w/Part Closure,00a1de,8/29/2026,21:00:04
+Rail,Brn,Brown Line,Normal Service,62361b,8/29/2026,21:00:04
+Rail,G,Green Line,Special Note,009b3a,8/29/2026,21:00:04
+Rail,Org,Orange Line,Normal Service,f9461c,8/29/2026,21:00:04
+Rail,Pink,Pink Line,Normal Service,e27ea6,8/29/2026,21:00:04
+Rail,P,Purple Line,Added Service,522398,8/29/2026,21:00:04
+Rail,Y,Yellow Line,Added Service,f9e300,8/29/2026,21:00:04
+Systemwide,Systemwide,All Routes,Normal Service,0,8/29/2026,21:00:05
+Systemwide,Bus,All Bus Routes,Service Change,0,8/29/2026,21:00:05
+Systemwide,Train,All Train Routes,Normal Service,0,8/29/2026,21:00:05
