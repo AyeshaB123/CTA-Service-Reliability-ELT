@@ -104,6 +104,12 @@ This also helped me understand a broader industry pattern post-COVID. In my view
 ---
 ## Additional Technical Details
 
+**Dashboard Details**
+- 1st dashboard reads directly from the Live Latest file, showing current status and severity level for each service line.
+- 2nd dashboard shows persistence status, comparing the Live Latest file against Live_Alerts_Fact to check whether a delay is ongoing or new.
+- 3rd and 4th dashboards cover historical data, providing an overview along with insights into Train and Bus service line delays.
+
+
 **Dataset Overview**
 - Sample dataset covers 8 days of CTA alert data from Sep 22nd, 2026 to Sep 29th, 2026, collected at multiple timestamps throughout each day
 - Total alerts in the complete dataset: 41,125
