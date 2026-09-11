@@ -1,4 +1,5 @@
 
+-- THIS CODE IS WRITTEN FOR MICROSOFT SQL SERVER
 
 -- Execute this script to create the database structure
 
