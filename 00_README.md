@@ -67,7 +67,7 @@ The project concludes with recommendations connecting the findings to CTA’s st
 - CTA's FY2026 Budget Book mentions ongoing work to eliminate slow zones. The agency could prioritize the affected lines and peak periods when evaluating this work.
 - This could help determine whether slow zones are contributing to the observed delays, and surface opportunities for targeted improvements.
 
-## Route Status Recommendations
+## Route Status
 
 - Recurring alerts may have operational or external causes.
 - Prioritize high-alert routes for root-cause analysis.
@@ -89,6 +89,27 @@ This also helped me understand a broader industry pattern post-COVID. In my view
 - **SQL Server:** DDL, DML, DQL, CTEs, Views, designing relationships in a galaxy schema
 - **SQL Server Agent:** Automated workflow and job scheduling
 - **Power BI:** DAX, semantic modeling, interactive dashboards
+
+---
+## Additional Technical Details
+
+**Dataset Overview**
+- Sample dataset covers 8 days of CTA alert data from Sep 22nd, 2026 to Sep 29th, 2026, collected at multiple timestamps throughout each day
+- Total alerts in the complete dataset: 41,125
+- Total Bus Routes: 127
+- Total Train Routes: 8
+
+**Alert Type Categories**
+Each alert is classified into one of 4 categories: Normal Service, Delays, Planned Change, Information, by comparing CTA's severity level mentioned in documentation against the raw Route Status field.
+
+**Delay Rate Calculation**
+- Overall / Train / Bus: Delays ÷ all non-Normal-Service alerts
+- Systemwide: Delays ÷ all Systemwide alerts (including Normal Service), since Systemwide only has two possible states (Normal Service or Delays), the standard formula would always show 100%, so total observations are used instead.
+- Delay Rate (and not raw count) is used to compare Bus, Train, and Systemwide performance, since each has a different alert volume and comparing raw counts could be misleading.
+
+**Pipeline & Approach**
+- Data refreshed automatically every 15 minutes via a SQL Server Agent job
+- Agile methodology and Scrum were used to manage deliverables through sprints. The project was organized into 4 sprints across 3 Epics, each with a specific purpose and deliverable, applying a realistic project workflow.
 
 ---
 ## References
