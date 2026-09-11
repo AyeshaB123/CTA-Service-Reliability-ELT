@@ -25,7 +25,7 @@ The project concludes with recommendations connecting the findings to CTA’s st
 
 | KPI | Value |
 |---|---:|
-| System Health | **60.7%** |
+| System Health |    60.7%    |
 | Disruption Rate | **39.3%** |
 | Overall Delay Rate | **1.9%** |
 | Bus Delay Rate | **2.0%** |
