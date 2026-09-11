@@ -17,10 +17,10 @@ The project concludes with recommendations connecting the findings to CTA’s st
 - [Documentation](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/01_Documentation/Documentation.pdf)
 - [SQL Server Scripts](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/tree/main/04_SQL)
 - [Real Pipeline Material]()
-- [Jira](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/06_Jira/Jira%20Dashboard%20Preview.pdf])
+- [Jira](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/06_Jira/Jira%20Dashboard%20Preview.pdf)
 - [Sample Dataset](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/tree/main/03_SampleData)
 
-##💡Insights & Recommendations
+## 🔍 Insights
 
 ### 1. System-Level Insight
 
@@ -28,33 +28,50 @@ The project concludes with recommendations connecting the findings to CTA’s st
 - **Disruption rate is 39.3%.**
 - **Delay rate is 1.9%**, with 2.0% for Bus and 0.9% for Train.
 
-**Recommendation:** Disruption rates are not delays, so they should be tracked and communicated separately based on their severity level. Since the transit agency currently shares status information without details such as status category and severity level in rider-facing displays and alerts, displaying this information would help customers accurately understand the situation and improve their service experience.
-
 ### 2. Bus Delay Insight
 
 - **Bus delay rate is 2.0%.**
 - Peak delays occur at **5-6 AM and 6-7 PM**.
 - The highest day period is **afternoon**.
 - The highest-delay day is **Saturday**.
-- **Bottom 3 routes by delays:** Blue Island/26th, Jackson 26, and Outer DuSable Shore Express.
-
-**Recommendation:** Delays are concentrated in specific periods and routes, indicating areas for targeted investigation. Investigate traffic, running time, bus bunching, and operator/fleet availability.
-Since CTA's FY2026 Budget Book identifies running-time review as part of its plan, the agency could prioritize the affected routes and periods in this review. This could help determine whether running-time schedules are contributing to the observed delays and identify opportunities for targeted improvements.
+- **Bottom 3 bus routes by delays:** Blue Island/26th, Jackson 26, and Outer DuSable Shore Express.
 
 ### 3. Train Delay Insight
 
 - **Train delay rate is 0.8%**, with peak delays at **10 AM, 4 PM, and 7 PM**.
 - The highest day period is **afternoon**.
 - The highest-delay day is **Wednesday**.
-- **Bottom 3 train by delays:** Blue, Green, and Pink.
+- **Bottom 3 train lines by delays:** Blue, Green, and Pink.
 
-**Recommendation:** Delays are concentrated on specific lines and time periods, indicating areas for targeted investigation. Investigate slow zones, running time, and other operational factors. Since CTA's FY2026 Budget Book mentions its ongoing work to eliminate slow zones, prioritize the affected lines and peak periods when evaluating this work. This could help determine whether slow zones are contributing to the observed delays and identify opportunities for targeted improvements.
+## 💡Recommendations
 
-### 4. Route Status Insight
+## System-Level
 
-- High disruption-alert volumes on certain routes may indicate recurring service issues.
+- Disruption rates are not delays and should be tracked and communicated separately, based on severity level.
+- CTA uses around 10 status categories (e.g., Normal Service, Bus Stop Note, Bus Stop Relocation, Minor Delays, Major Delays), grouped under broader types like Information Alert, Delay Alert, and Planned Route Alert.
+- Surfacing this structure benefits the agency in two ways:
+  - Rider-facing displays and alerts become clearer, helping customers accurately understand the situation.
+  - The agency can more easily identify which problems are urgent and need immediate attention.
 
-**Recommendation:** Recurring alerts may have operational or external causes. Prioritize high-alert routes for root-cause analysis, and focus on reducing recurring service disruptions rather than the number of alerts reported.
+## Bus Service
+
+- Delays are concentrated in specific periods and routes, indicating areas for targeted investigation.
+- Contributing factors worth investigating: traffic conditions, running time, bus bunching, and operator/fleet availability.
+- CTA's FY2026 Budget Book identifies running-time review as part of its plan. The agency could prioritize the affected routes and periods within this review.
+- This could help determine whether running-time schedules are contributing to the observed delays, and surface opportunities for targeted improvements.
+
+## Train Service
+
+- Delays are concentrated on specific lines and time periods, indicating areas for targeted investigation.
+- Contributing factors worth investigating: slow zones, running time, and other operational factors.
+- CTA's FY2026 Budget Book mentions ongoing work to eliminate slow zones. The agency could prioritize the affected lines and peak periods when evaluating this work.
+- This could help determine whether slow zones are contributing to the observed delays, and surface opportunities for targeted improvements.
+
+## Route Status Recommendations
+
+- Recurring alerts may have operational or external causes.
+- Prioritize high-alert routes for root-cause analysis.
+- Focus on reducing recurring service disruptions, rather than just the number of alerts reported.
 
 ## 👩‍💼 Analyst View
 
@@ -72,6 +89,13 @@ This also helped me understand a broader industry pattern post-COVID. In my view
 - **SQL Server:** DDL, DML, DQL, CTEs, Views, designing relationships in a galaxy schema
 - **SQL Server Agent:** Automated workflow and job scheduling
 - **Power BI:** DAX, semantic modeling, interactive dashboards
+
+---
+## References
+
+- [Chicago Transit Authority FY2026 Budget Book](https://cst.brightspotcdn.com/9c/b0/c9bab8dc45b29c3a0aa9a418f543/fy2026-budget-book.pdf)
+- [Chicago Transit Authority Customer Alerts API Documentation](https://www.transitchicago.com/assets/1/6/cta_Customer_Alerts_API_Developer_Guide_and_Documentation_20160929.pdf)
+
 
 ---
 
