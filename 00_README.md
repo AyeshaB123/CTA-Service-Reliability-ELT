@@ -11,7 +11,7 @@ It provides a real-time view of current status across all routes, including a pe
 The project concludes with recommendations connecting the findings to CTA’s stated goals and financial constraints as outlined in its FY2026 Report.
 
 ## 📁 Project Deliverables
-> **Note:** All except Real Pipeline Material are sample deliverables shared for testing and review, giving a glimpse of my process rather than the complete project. The "Real Pipeline Material" folder contains the actual production files: Python scripts and the final dashboard PDF only. All other folders (sample dataset, Power BI, SQL) are for testing purposes that are similar to my real work.
+> **Note:** All deliverables except Real Pipeline Material are samples shared for testing and review, giving a glimpse of my process rather than the complete project. The "Real Pipeline Material" folder contains the actual production files: Python scripts and the final dashboard PDF only. All other folders (sample dataset, Power BI, SQL) are for testing purposes that are similar to my real work.
 
 - [Dashboard](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/02_PowerBI/Service%20Reliability%20Dashboard.pdf)
 - [Documentation](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/01_Documentation/Documentation.pdf)
