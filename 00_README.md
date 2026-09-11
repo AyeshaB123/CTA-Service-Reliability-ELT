@@ -39,22 +39,31 @@ The project concludes with recommendations connecting the findings to CTA’s st
 
 ### 1. System-Level Insight
 
-- CTA's system health is 60.7%.
-- Disruption rate is 39.3%.
-- Delay rate is 1.9%, with 2.0% for Bus and 0.9% for Train.
+- System health: 60.7% of alerts indicate normal service.
+- System delay rate: 1.9%, with 2.0% for Bus and 0.9% for Train.
+- Disruption rate: 39.3%, considerably higher than the delay rate, showing that disruption alerts are not equivalent to actual delays.
+- Disrupted routes: 23.2%.
+- Day pattern: Sunday and Monday have the highest normal-service counts and disruptions.
+- Delay pattern: Saturday and Sunday have the highest delay rates.
 
 ### 2. Bus Delay Insight
 
-- Peak delays occur at 5-6 AM and 6-7 PM.
-- The highest day period is afternoon.
-- The highest-delay day is Saturday.
+- Delay rate: 2.0%, higher than Train.
+- Affected routes: 29.
+- Peak hour: 5 AM, with other high-delay hours between 4–7 AM, particularly 6–7 PM.
+- Day-period pattern: Afternoon has the highest delay rate; Morning is 2.1%, Midday 1.9%, and Night 1.9%.
+- Highest weekday: Saturday; Saturday and Sunday show higher delay rates overall.
 - Bottom 3 bus routes by delays: Blue Island/26th, Jackson 26, and Outer DuSable Shore Express.
 
 ### 3. Train Delay Insight
 
-- Peak delays at 10 AM, 4 PM, and 7 PM.
-- The highest day period is afternoon.
-- The highest-delay day is Wednesday.
+- Delay rate: 0.8%.
+- Affected routes: 3.
+- Peak hour: 16:00, with other high-delay hours at 10:00 and 19:00.
+- Peak day period: Afternoon.
+- Highest weekday: Wednesday, followed by Monday and Thursday; Friday, Sunday, and Tuesday show 0% delay rate.
+- Status distribution: Normal Service is dominant, followed by Added Service, Special Note, Service Change, and Planned Work/Partial Closure.
+- All three train lines show delay activity.
 - Bottom 3 train lines by delays: Blue, Green, and Pink.
 
 
