@@ -41,7 +41,6 @@ The project concludes with recommendations connecting the findings to CTA’s st
 
 ### 2. Bus Delay Insight
 
-- Bus delay rate is 2.0%.
 - Peak delays occur at 5-6 AM and 6-7 PM.
 - The highest day period is afternoon.
 - The highest-delay day is Saturday.
@@ -49,7 +48,7 @@ The project concludes with recommendations connecting the findings to CTA’s st
 
 ### 3. Train Delay Insight
 
-- Train delay rate is 0.8%, with peak delays at 10 AM, 4 PM, and 7 PM.
+- Peak delays at 10 AM, 4 PM, and 7 PM.
 - The highest day period is afternoon.
 - The highest-delay day is Wednesday.
 - Bottom 3 train lines by delays: Blue, Green, and Pink.
