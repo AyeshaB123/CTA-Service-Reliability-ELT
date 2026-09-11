@@ -130,6 +130,15 @@ Each alert is classified into one of 4 categories: Normal Service, Delays, Plann
 - Systemwide: Delays ÷ all Systemwide alerts (including Normal Service), since Systemwide only has two possible states (Normal Service or Delays), the standard formula would always show 100%, so total observations are used instead.
 - Delay Rate (and not raw count) is used to compare Bus, Train, and Systemwide performance, since each has a different alert volume and comparing raw counts could be misleading.
 
+### Train Route Availability
+
+Some train lines do not run every day, and their scheduled days/times are not part of CTA's official API documentation. This was confirmed through several third-party sources, which noted that specific train routes only operate on specific days.
+
+This pattern is also visible in the dataset itself. For instance, a few train lines show inconsistent presence across days and was further confirmed by observing the live dashboard, where the same routes weren't always active day to day.
+
+Therefore, the day level and hour level train metrics in this analysis reflect only the days a route was actually running. Gaps in a route's data may indicate the route was scheduled off, not a data collection failure.
+
+
 **Pipeline & Approach**
 - Data refreshed automatically every 15 minutes via a SQL Server Agent job
 - Agile methodology and Scrum were used to manage deliverables through sprints. The project was organized into 4 sprints across 3 Epics, each with a specific purpose and deliverable, applying a realistic project workflow.
