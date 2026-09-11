@@ -1,6 +1,6 @@
 # Chicago Transit Authority (CTA) Service Reliability Monitoring & Analysis
 
-### API Data Ingestion | Python | ELT | SQL | Automated Pipeline | Power BI
+> API Data Ingestion | Python | ELT | SQL | Automated Pipeline | Power BI
 
 ## 📌 Project Overview
 
@@ -27,36 +27,36 @@ The project concludes with recommendations connecting the findings to CTA’s st
 |---|---:|
 | System Health | **60.7%** |
 | Disruption Rate | **39.3%** |
-| Delay Rate (Overall) | **1.9%** |
-| Delay Rate (Bus) | **2.0%** |
-| Delay Rate (Train) | **0.9%** |
+| Overall Delay Rate | **1.9%** |
+| Bus Delay Rate | **2.0%** |
+| Train Delay Rate | **0.9%** |
 
 ## 🔍 Insights
 
 ### 1. System-Level Insight
 
-- **CTA's system health is 60.7%.**
-- **Disruption rate is 39.3%.**
-- **Delay rate is 1.9%**, with 2.0% for Bus and 0.9% for Train.
+- CTA's system health is 60.7%.
+- Disruption rate is 39.3%.
+- Delay rate is 1.9%, with 2.0% for Bus and 0.9% for Train.
 
 ### 2. Bus Delay Insight
 
-- **Bus delay rate is 2.0%.**
-- Peak delays occur at **5-6 AM and 6-7 PM**.
-- The highest day period is **afternoon**.
-- The highest-delay day is **Saturday**.
-- **Bottom 3 bus routes by delays:** Blue Island/26th, Jackson 26, and Outer DuSable Shore Express.
+- Bus delay rate is 2.0%.
+- Peak delays occur at 5-6 AM and 6-7 PM.
+- The highest day period is afternoon.
+- The highest-delay day is Saturday.
+- Bottom 3 bus routes by delays: Blue Island/26th, Jackson 26, and Outer DuSable Shore Express.
 
 ### 3. Train Delay Insight
 
-- **Train delay rate is 0.8%**, with peak delays at **10 AM, 4 PM, and 7 PM**.
-- The highest day period is **afternoon**.
-- The highest-delay day is **Wednesday**.
-- **Bottom 3 train lines by delays:** Blue, Green, and Pink.
+- Train delay rate is 0.8%, with peak delays at 10 AM, 4 PM, and 7 PM.
+- The highest day period is afternoon.
+- The highest-delay day is Wednesday.
+- Bottom 3 train lines by delays: Blue, Green, and Pink.
 
 ## 💡Recommendations
 
-## System-Level
+### 1. System-Level
 
 - Disruption rates are not delays and should be tracked and communicated separately, based on severity level.
 - CTA uses around 10 status categories (e.g., Normal Service, Bus Stop Note, Bus Stop Relocation, Minor Delays, Major Delays), grouped under broader types like Information Alert, Delay Alert, and Planned Route Alert.
@@ -64,21 +64,21 @@ The project concludes with recommendations connecting the findings to CTA’s st
   - Rider-facing displays and alerts become clearer, helping customers accurately understand the situation.
   - The agency can more easily identify which problems are urgent and need immediate attention.
 
-## Bus Service
+### 2. Bus Service
 
 - Delays are concentrated in specific periods and routes, indicating areas for targeted investigation.
 - Contributing factors worth investigating: traffic conditions, running time, bus bunching, and operator/fleet availability.
 - CTA's FY2026 Budget Book identifies running-time review as part of its plan. The agency could prioritize the affected routes and periods within this review.
 - This could help determine whether running-time schedules are contributing to the observed delays, and surface opportunities for targeted improvements.
 
-## Train Service
+### 3. Train Service
 
 - Delays are concentrated on specific lines and time periods, indicating areas for targeted investigation.
 - Contributing factors worth investigating: slow zones, running time, and other operational factors.
 - CTA's FY2026 Budget Book mentions ongoing work to eliminate slow zones. The agency could prioritize the affected lines and peak periods when evaluating this work.
 - This could help determine whether slow zones are contributing to the observed delays, and surface opportunities for targeted improvements.
 
-## Route Status
+### 4. Route Status
 
 - Recurring alerts may have operational or external causes.
 - Prioritize high-alert routes for root-cause analysis.
