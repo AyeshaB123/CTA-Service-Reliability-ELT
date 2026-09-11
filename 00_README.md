@@ -20,6 +20,17 @@ The project concludes with recommendations connecting the findings to CTA’s st
 - [Jira](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/06_Jira/Jira%20Dashboard%20Preview.pdf)
 - [Sample Dataset](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/tree/main/03_SampleData)
 
+
+## 🎯Main KPIs
+
+| KPI | Value |
+|---|---:|
+| System Health | **60.7%** |
+| Disruption Rate | **39.3%** |
+| Delay Rate (Overall) | **1.9%** |
+| Delay Rate (Bus) | **2.0%** |
+| Delay Rate (Train) | **0.9%** |
+
 ## 🔍 Insights
 
 ### 1. System-Level Insight
