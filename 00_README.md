@@ -100,8 +100,8 @@ The project concludes with recommendations connecting the findings to CTA’s st
 
 - Optimize planned changes: If disruptions are caused by internal factors, consider spacing them out to avoid repeated disruption on the same routes.
 - Improve alert transparency: Clearly indicate whether the disruption is caused by an internal or external factor so riders have better context.
-- Investigate high-disruption bus routes: Review higher disruption routes individually to identify contributing factors such as traffic, road conditions, construction, or operational issues.
-- Apply targeted train-line reviews: Conduct similar analysis for train lines with high disruption activity, prioritizing areas where disruptions affect larger numbers of riders.
+- Investigate high disruption bus routes: Review higher disruption routes individually to identify contributing factors such as traffic, road conditions, construction, or operational issues.
+- Apply targeted train line reviews: Conduct similar analysis for train lines with high disruption activity, prioritizing areas where disruptions affect larger numbers of riders.
 - Reduce alert fatigue: Frequent alerts, even when planned, can affect the customer experience. Repeated disruptions require riders to replan their trips and may make them less likely to notice important alerts.
 
 
