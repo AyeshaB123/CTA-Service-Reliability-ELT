@@ -16,7 +16,7 @@ The project concludes with recommendations connecting the findings to CTA’s st
 > **Note:** All deliverables except Real Pipeline Material are samples shared for testing and review, giving a glimpse of my process rather than the complete project. The "Real Pipeline Material" folder contains the actual production files: Python scripts and the final dashboard PDF only. All other folders (sample dataset, Power BI, SQL) are for testing purposes that are similar to my real work.
 
 - [Dashboard](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/02_PowerBI/Service%20Reliability%20Dashboard.pdf)
-- [Documentation](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/01_Documentation/Documentation.pdf)
+- [Documentation](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/tree/main/01_Documentation)
 - [SQL Server Scripts](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/tree/main/04_SQL)
 - [Real Pipeline Material](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/tree/main/05_RealPipelineMaterial)
 - [Jira](https://github.com/AyeshaB123/CTA-Service-Reliability-ELT/blob/main/06_Jira/Jira%20Dashboard%20Preview.pdf)
