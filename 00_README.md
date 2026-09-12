@@ -69,7 +69,7 @@ The project concludes with recommendations connecting the findings to CTA’s st
 
 - Delay rate: 2.0%, higher than Train.
 - Affected routes: 29.
-- Peak hour: 5 AM, with other high-delay hours between 4–7 AM, particularly 6–7 PM.
+- Peak hour: 5 AM, with other high-delay hours between 4AM to 7AM, particularly 6PM to 7 PM.
 - Day-period pattern: Afternoon has the highest delay rate; Morning is 2.1%, Midday 1.9%, and Night 1.9%.
 - Highest weekday: Saturday; Saturday and Sunday show higher delay rates overall.
 - Bottom 3 bus routes by delays: Blue Island/26th, Jackson 26, and Outer DuSable Shore Express.
@@ -78,11 +78,10 @@ The project concludes with recommendations connecting the findings to CTA’s st
 
 - Delay rate: 0.8%.
 - Affected routes: 3.
-- Peak hour: 16:00, with other high-delay hours at 10:00 and 19:00.
+- Peak hour: 16:00, with other high delay hours at 10:00 and 19:00.
 - Peak day period: Afternoon.
 - Highest weekday: Wednesday, followed by Monday and Thursday; Friday, Sunday, and Tuesday show 0% delay rate.
 - Status distribution: Normal Service is dominant, followed by Added Service, Special Note, Service Change, and Planned Work/Partial Closure.
-- All three train lines show delay activity.
 - Bottom 3 train lines by delays: Blue, Green, and Pink.
 
 
@@ -151,7 +150,6 @@ Each alert is classified into one of 4 categories: Normal Service, Delays, Plann
 **Delay Rate Calculation**
 - Overall / Train / Bus: Delays ÷ all non-Normal-Service alerts
 - Systemwide: Delays ÷ all Systemwide alerts (including Normal Service), since Systemwide only has two possible states (Normal Service or Delays), the standard formula would always show 100%, so total observations are used instead.
-- Delay Rate (and not raw count) is used to compare Bus, Train, and Systemwide performance, since each has a different alert volume and comparing raw counts could be misleading.
 - If severity level > 0, then it's a disruption alert therefore, Route Status Category "Information" is also considered as Disruption.
 
 **Train Route Availability**
