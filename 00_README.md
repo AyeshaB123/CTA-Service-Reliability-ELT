@@ -40,13 +40,32 @@ The project concludes with recommendations connecting the findings to CTA’s st
 ### 1. System-Level Insight
 
 - System health: 60.7% of alerts indicate normal service.
-- System delay rate: 1.9%, with 2.0% for Bus and 0.9% for Train.
+- System delay rate: 1.9%, with 2.0% for Bus and 0.8% for Train.
 - Disruption rate: 39.3%, considerably higher than the delay rate, showing that disruption alerts are not equivalent to actual delays.
 - Disrupted routes: 23.2%.
 - Day pattern: Sunday and Monday have the highest normal-service counts and disruptions.
 - Delay pattern: Saturday and Sunday have the highest delay rates.
 
-### 2. Bus Delay Insight
+
+### 2. Disruption Insights
+- The overall disruption rate is **39.3%**.
+
+| Alert Category | % of Disruption Alerts |
+|---|---:|
+| Planned Reroute | 25.00% |
+| Added Service | 5.63% |
+| Bus Stop Note | 4.13% |
+| Service Change | 1.81% |
+| Bus Stop Relocation | 0.95% |
+| Minor Delays / Reroute | 0.82% |
+
+
+- **Planned Change** is the largest driver of disruption alerts, indicating that most disruptions are known in advance rather than caused by unexpected service breakdowns.
+- The following bus routes each have a **0.72% disruption rate** and collectively represent a significant share of overall disruption activity:
+  - 31st/35th, 67th-69th-71st, Archer, Armitage, Austin, Blue Island/26th, Broadway, California/Dodge, Chicago, Clarendon/Michigan Express, Clark, Cottage Grove, Damen, Foster, Halsted
+- Train lines including **Blue, Green, Purple, and Yellow** also show higher disruption activity.
+
+### 3. Bus Delay Insight
 
 - Delay rate: 2.0%, higher than Train.
 - Affected routes: 29.
@@ -55,7 +74,7 @@ The project concludes with recommendations connecting the findings to CTA’s st
 - Highest weekday: Saturday; Saturday and Sunday show higher delay rates overall.
 - Bottom 3 bus routes by delays: Blue Island/26th, Jackson 26, and Outer DuSable Shore Express.
 
-### 3. Train Delay Insight
+### 4. Train Delay Insight
 
 - Delay rate: 0.8%.
 - Affected routes: 3.
@@ -76,26 +95,30 @@ The project concludes with recommendations connecting the findings to CTA’s st
 - Surfacing this structure benefits the agency in two ways:
   - Rider-facing displays and alerts become clearer, helping customers accurately understand the situation.
   - The agency can more easily identify which problems are urgent and need immediate attention.
+ 
+### 2. Disruption Alerts
 
-### 2. Bus Service
+- Optimize planned changes: If disruptions are caused by internal factors, consider spacing them out to avoid repeated disruption on the same routes.
+- Improve alert transparency: Clearly indicate whether the disruption is caused by an internal or external factor so riders have better context.
+- Investigate high-disruption bus routes: Review higher disruption routes individually to identify contributing factors such as traffic, road conditions, construction, or operational issues.
+- Apply targeted train-line reviews: Conduct similar analysis for train lines with high disruption activity, prioritizing areas where disruptions affect larger numbers of riders.
+- Reduce alert fatigue: Frequent alerts, even when planned, can affect the customer experience. Repeated disruptions require riders to replan their trips and may make them less likely to notice important alerts.
+
+
+### 3. Bus Service
 
 - Delays are concentrated in specific periods and routes, indicating areas for targeted investigation.
 - Contributing factors worth investigating: traffic conditions, running time, bus bunching, and operator/fleet availability.
 - CTA's FY2026 Budget Book identifies running-time review as part of its plan. The agency could prioritize the affected routes and periods within this review.
 - This could help determine whether running-time schedules are contributing to the observed delays, and surface opportunities for targeted improvements.
 
-### 3. Train Service
+### 4. Train Service
 
 - Delays are concentrated on specific lines and time periods, indicating areas for targeted investigation.
 - Contributing factors worth investigating: slow zones, running time, and other operational factors.
 - CTA's FY2026 Budget Book mentions ongoing work to eliminate slow zones. The agency could prioritize the affected lines and peak periods when evaluating this work.
 - This could help determine whether slow zones are contributing to the observed delays, and surface opportunities for targeted improvements.
 
-### 4. Route Status
-
-- Recurring alerts may have operational or external causes.
-- Prioritize high-alert routes for root-cause analysis.
-- Focus on reducing recurring service disruptions, rather than just the number of alerts reported.
 
 ---
 
@@ -129,8 +152,9 @@ Each alert is classified into one of 4 categories: Normal Service, Delays, Plann
 - Overall / Train / Bus: Delays ÷ all non-Normal-Service alerts
 - Systemwide: Delays ÷ all Systemwide alerts (including Normal Service), since Systemwide only has two possible states (Normal Service or Delays), the standard formula would always show 100%, so total observations are used instead.
 - Delay Rate (and not raw count) is used to compare Bus, Train, and Systemwide performance, since each has a different alert volume and comparing raw counts could be misleading.
+- If severity level > 0, then it's a disruption alert therefore, Route Status Category "Information" is also considered as Disruption.
 
-### Train Route Availability
+**Train Route Availability**
 
 Some train lines do not run every day, and their scheduled days/times are not part of CTA's official API documentation. This was confirmed through several third-party sources, which noted that specific train routes only operate on specific days.
 
