@@ -145,8 +145,6 @@ This also helped me understand a broader industry pattern post COVID. In my view
 **Dataset Overview**
 - Sample dataset covers 8 days of CTA alert data from Sep 22nd, 2026 to Sep 29th, 2026, collected at multiple timestamps throughout each day
 - Total alerts in the complete dataset: 41,125
-- Total Bus Routes: 127
-- Total Train Routes: 8
 
 **Alert Type Categories**
 Each alert is classified into one of 4 categories: Normal Service, Delays, Planned Change, Information, by comparing CTA's severity level mentioned in documentation against the raw Route Status field.
