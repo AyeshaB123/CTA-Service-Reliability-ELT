@@ -6,7 +6,7 @@
 
 This project analyzes CTA bus and train service reliability using live and historical alert data, examining patterns at two levels: what’s happening right now, and what the past data shows.
 
-It provides a real-time view of current status across all routes, including a persistence analysis that flags routes stuck in an unchanged status for at least 1 hour. An 8-day historical view uncovers patterns in delays, disruptions, and affected routes. Furthermore, it investigates trends across the three services - Bus, Train, and Systemwide, by highlighting peak hours, day periods, and weekday patterns.
+It provides a real-time view of current status across all routes, including a persistence analysis that flags routes stuck in an unchanged status for at least an hour. An 8-day historical view uncovers patterns in delays, disruptions, and affected routes. Furthermore, it investigates trends across the three services - Bus, Train, and Systemwide, by highlighting peak hours, day periods, and weekday patterns.
 
 The project concludes with recommendations connecting the findings to CTA’s stated goals and financial constraints as outlined in its FY2026 Report.
 
