@@ -32,7 +32,7 @@ The project concludes with recommendations connecting the findings to CTA’s st
 | Disruption Rate | **39.3%** |
 | Overall Delay Rate | **1.9%** |
 | Bus Delay Rate | **2.0%** |
-| Train Delay Rate | **0.9%** |
+| Train Delay Rate | **0.8%** |
 
 
 ## 🔍 Insights
@@ -90,7 +90,7 @@ The project concludes with recommendations connecting the findings to CTA’s st
 ### 1. System-Level
 
 - Disruption rates are not delays and should be tracked and communicated separately, based on severity level.
-- CTA uses around 10 status categories (e.g., Normal Service, Bus Stop Note, Bus Stop Relocation, Minor Delays, Major Delays), grouped under broader types like Information Alert, Delay Alert, and Planned Route Alert.
+- CTA uses around 10 status categories (e.g., Normal Service, Bus Stop Note, Bus Stop Relocation, Minor Delays, Major Delays), which should be grouped under broader types like Information Alert, Delay Alert, and Planned Route Alert for both customer communication and internal data usage.
 - Surfacing this structure benefits the agency in two ways:
   - Rider-facing displays and alerts become clearer, helping customers accurately understand the situation.
   - The agency can more easily identify which problems are urgent and need immediate attention.
