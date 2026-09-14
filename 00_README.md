@@ -12,6 +12,16 @@ The project concludes with recommendations connecting the findings to CTA’s st
 
 ---
 
+## 🛠️ Tools & Skills
+
+- **Postman:** API testing
+- **Python:** API data ingestion, data processing, automation
+- **SQL Server:** DDL, DML, DQL, CTEs, Views, designing relationships in a galaxy schema
+- **SQL Server Agent:** Automated workflow and job scheduling
+- **Power BI:** DAX, semantic modeling, interactive dashboards
+
+---
+
 ## 📁 Project Deliverables
 > **Note:** All deliverables except Real Pipeline Material are samples shared for testing and review, giving a glimpse of my process rather than the complete project. The "Real Pipeline Material" folder contains the actual production files: Python scripts and the final dashboard PDF only. All other folders (sample dataset, Power BI, SQL) are for testing purposes that are similar to my real work.
 
@@ -166,16 +176,6 @@ Therefore, the day level and hour level train metrics in this analysis reflect o
 **Pipeline & Approach**
 - Data refreshed automatically every 15 minutes via a SQL Server Agent job
 - Agile methodology and Scrum were used to manage deliverables through sprints. The project was organized into 4 sprints across 3 Epics, each with a specific purpose and deliverable, applying a realistic project workflow.
-
----
-
-## 🛠️ Tools & Skills
-
-- **Postman:** API testing
-- **Python:** API data ingestion, data processing, automation
-- **SQL Server:** DDL, DML, DQL, CTEs, Views, designing relationships in a galaxy schema
-- **SQL Server Agent:** Automated workflow and job scheduling
-- **Power BI:** DAX, semantic modeling, interactive dashboards
 
 ---
 ## References
