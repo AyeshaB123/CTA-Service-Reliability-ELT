@@ -1,7 +1,5 @@
 # Chicago Transit Authority (CTA) Service Reliability Monitoring & Analysis
 
-> API Data Ingestion | Python | ELT | SQL | Automated Pipeline | Power BI
-
 ## 📌 Project Overview
 
 This project analyzes CTA bus and train service reliability using live and historical alert data, examining patterns at two levels: what’s happening right now, and what the past data shows.
